@@ -1,0 +1,179 @@
+{
+	"compiler": {
+		"version": "0.5.0+commit.1d4f565a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getCurrentBlockTimestamp",
+				"outputs": [
+					{
+						"name": "timestamp",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"components": [
+							{
+								"name": "target",
+								"type": "address"
+							},
+							{
+								"name": "callData",
+								"type": "bytes"
+							}
+						],
+						"name": "calls",
+						"type": "tuple[]"
+					}
+				],
+				"name": "aggregate",
+				"outputs": [
+					{
+						"name": "blockNumber",
+						"type": "uint256"
+					},
+					{
+						"name": "returnData",
+						"type": "bytes[]"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getLastBlockHash",
+				"outputs": [
+					{
+						"name": "blockHash",
+						"type": "bytes32"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "getEthBalance",
+				"outputs": [
+					{
+						"name": "balance",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getCurrentBlockDifficulty",
+				"outputs": [
+					{
+						"name": "difficulty",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getCurrentBlockGasLimit",
+				"outputs": [
+					{
+						"name": "gaslimit",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getCurrentBlockCoinbase",
+				"outputs": [
+					{
+						"name": "coinbase",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "blockNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "getBlockHash",
+				"outputs": [
+					{
+						"name": "blockHash",
+						"type": "bytes32"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"author": "Nick Johnson <arachnid@notdot.net>",
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"smart contracts/v2-periphery-master/contracts/multicall.sol": "Multicall"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"smart contracts/v2-periphery-master/contracts/multicall.sol": {
+			"keccak256": "0x79a419999a5c859c202a8fb6286e81a97b6d70079e3a08508f6d2cfecda8f1c1",
+			"urls": [
+				"bzzr://13da47bdda94997ab74fde984ebd1a48ff068b6d7b06922629bbeaff1f3acafc"
+			]
+		}
+	},
+	"version": 1
+}
