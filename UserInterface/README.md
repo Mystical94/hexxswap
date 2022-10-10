@@ -1,18 +1,18 @@
-## CaritoSwap Interface
+## HexxSwap Interface
 
-An open source interface for CaritoSwap -- a protocol for decentralized exchange on Celo.
+An open source interface for HexxSwap -- a protocol for decentralized exchange on CoinEx Smart Chain.
 
 Enabling users to:
 
-- Add and remove their liquidity positions on CaritoSwap protocol
-- Swap tokens on CaritoSwap protocol
+- Add and remove their liquidity positions on HexxSwap protocol
+- Swap tokens on HexxSwap protocol
 
 Future Plans:
 
 - Add the functinality of Farming, Staking and Limit Orders
-- Making it live on the Celo Blockchain (coming very soon 😉)
+- Making it live on the CoinEx Smart Chain Blockchain (coming very soon 😉)
 
-## Deploying the CaritoSwap on local machine
+## Deploying the HexxSwap on local machine
 
 Clone the repository
 
